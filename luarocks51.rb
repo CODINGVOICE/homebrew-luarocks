@@ -14,7 +14,7 @@ class Luarocks51 < Formula
   if build.with? "luajit"
     depends_on "luajit"
   else
-    depends_on "lua51"
+    depends_on "lua@5.1"
   end
 
   fails_with :llvm do
