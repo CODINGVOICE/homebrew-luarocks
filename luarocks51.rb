@@ -4,7 +4,7 @@ class Luarocks51 < Formula
 
   homepage "http://luarocks.org"
   url "https://github.com/luarocks/luarocks/archive/refs/tags/v2.3.0.tar.gz"
-  sha256 "68e38feeb66052e29ad1935a71b875194ed8b9c67c2223af5f4d4e3e2464ed97"
+  sha256 "92c014889ec6a09c4bb492df6b7f7be784110d6abe031e16418342781ca5c5ce"
   revision 1
 
   head "https://github.com/keplerproject/luarocks.git"
