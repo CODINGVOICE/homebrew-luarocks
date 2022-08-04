@@ -7,12 +7,6 @@ class Luarocks51 < Formula
   sha256 "68e38feeb66052e29ad1935a71b875194ed8b9c67c2223af5f4d4e3e2464ed97"
   revision 1
 
-  bottle do
-    sha256 "56ec46f48303ede0210a6f5cb0ebb82ffd088002e12c3698271af946b3460eeb" => :el_capitan
-    sha256 "df3c611fc103491b9aeb5357bcd2a49830e72bdd89d73827acf32da7ebc136a7" => :yosemite
-    sha256 "df14dde529876d335709841750c65e2216038819fae2efe3cffdcb4057812e57" => :mavericks
-  end
-
   head "https://github.com/keplerproject/luarocks.git"
 
   option "with-luajit",  "Use LuaJIT instead of Lua 5.1"
